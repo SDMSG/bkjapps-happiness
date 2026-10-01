@@ -91,14 +91,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  // If deploying to a project repository (e.g., username.github.io/repo-name),
-  // add basePath: '/repo-name',
-  images: {
-    unoptimized: true, // Required because default Next.js image optimization isn't supported on static hosts
-  },
-};
 
-module.exports = nextConfig;
