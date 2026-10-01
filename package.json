@@ -1,0 +1,32 @@
+{
+  "name": "birthday-scrapbook",
+  "version": "1.0.0",
+  "description": "A minimalist and romantic scrapbook for a birthday celebration, featuring animations, a music booth connected to Spotify, and multiple pages.",
+  "main": "app/page.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "birthday",
+    "scrapbook",
+    "minimalist",
+    "romantic",
+    "animations",
+    "spotify"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "spotify-web-api-node": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
+  }
+}
